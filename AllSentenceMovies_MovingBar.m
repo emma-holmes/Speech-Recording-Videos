@@ -15,7 +15,7 @@ function AllSentenceMovies_MovingBar(outDir, xlsFilename)
 %
 % Example useage:
 %   Create_Sentence_Movies('C:\Users\Emma\video_outputs', ...
-%       'C:\Users\Emma\Example_Sentence_List')
+%       'C:\Users\Emma\Example_Sentence_List.xls')
 %
 % Emma Holmes
 % Created on 13/02/2015
@@ -70,7 +70,7 @@ barInterval     = (word_spacing*5) / numSentFrames;
 
 % Next, loop through all sentences to create movies
 for a = 1 : length(numberToPlot);
-    wordArray   = allWords(a);
+    wordArray   = allWords(a,:);
     sentence    = strjoin(wordArray);
     movieFilename = sprintf('%s\\%s', outDir, strjoin(wordArray, '_'));
     
