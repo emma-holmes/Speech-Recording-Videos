@@ -23,4 +23,6 @@ The script calls [createSentenceMovie_MovingBar.m](createSentenceMovie_Expanding
 The file [movieMaker_ExpandingBar.m](movieMaker_ExpandingBar) will also need to be in the MATLAB path. The function of this script is to add a bar to an image.
 
 ## License
-This project is licensed under the MIT License; see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License; see the [LICENSE](LICENSE) file for details.
+
+This project can be cited using the following DOI: [![DOI](https://zenodo.org/badge/100834657.svg)](https://zenodo.org/badge/latestdoi/100834657)
