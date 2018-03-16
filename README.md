@@ -18,7 +18,7 @@ The file [movieMaker_MovingBar.m](movieMaker_MovingBar.m) will also need to be i
 ### Expanding bar videos
 To create expanding videos for a list of sentences (that are specified in an Excel document), run [AllSentenceMovies_ExpandingBar.m](AllSentenceMovies_ExpandingBar.m). The output directory (where the videos will be saved) and Excel file are both inputs to the script. The parameters in the first section of the script can be changed as desired, including the estimated time (in seconds) that the bar should take to move through the sentence.
 
-The script calls [createSentenceMovie_MovingBar.m](createSentenceMovie_ExpandingBar.m), which can be used alone to create a video file of an individual sentence.
+The script calls [createSentenceMovie_ExpandingBar.m](createSentenceMovie_ExpandingBar.m), which can be used alone to create a video file of an individual sentence.
 
 The file [movieMaker_ExpandingBar.m](movieMaker_ExpandingBar) will also need to be in the MATLAB path. The function of this script is to add a bar to an image.
 
